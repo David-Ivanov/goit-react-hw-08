@@ -1,0 +1,15 @@
+.box {
+    margin-bottom: 20px;
+}
+
+.input {
+    height: 20px;
+    width: 250px;
+
+    border: 2px solid rgba(61, 58, 58, 0.728);
+    border-radius: 4px;
+}
+
+.label {
+    display: block;
+}

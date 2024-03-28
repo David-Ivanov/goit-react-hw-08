@@ -1,0 +1,25 @@
+.form {
+    width: 300px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+.box {
+    margin-bottom: 10px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+}
+
+.error {
+    color: red;
+}
+
+.btn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
