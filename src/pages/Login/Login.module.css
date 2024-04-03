@@ -1,0 +1,15 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: calc(100vh - 40px);
+}
+
+@media screen and (min-width: 760px) {
+    .box {
+        height: calc(100vh - 60px);
+    }
+}

@@ -1,0 +1,46 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    width: 300px;
+
+    padding: 5px;
+
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.line {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.itemBox {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+@media screen and (min-width: 760px) {
+    .item {
+        width: calc((100% - 20px) / 2);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .item {
+        width: calc((100% - 20px * 2) / 3);
+    }
+}

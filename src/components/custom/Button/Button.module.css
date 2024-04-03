@@ -1,0 +1,26 @@
+.btn {
+    display: block;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    font-size: 18px;
+
+    border: 2px solid black;
+    border-radius: 4px;
+
+    background-color: transparent;
+}
+
+.btn:hover {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 760px) {
+    .btn {
+        font-size: 24px;
+    }
+}

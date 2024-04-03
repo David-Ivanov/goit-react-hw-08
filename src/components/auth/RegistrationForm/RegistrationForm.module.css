@@ -1,0 +1,57 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: calc(100vh - 40px);
+}
+
+.form {
+    width: 300px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.error {
+    color: red;
+}
+
+.btn {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (min-width: 760px) {
+    .box {
+        height: calc(100vh - 60px);
+    }
+
+    .form {
+        width: 400px;
+    }
+
+    .label {
+        font-size: 20px;
+    }
+
+    .input {
+        height: 30px;
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,24 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+    width: 300px;
+}
+
+.loader {
+    height: min-content;
+}
+
+@media screen and (min-width: 760px) {
+    .list {
+        width: 620px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .list {
+        width: 940px;
+    }
+}
